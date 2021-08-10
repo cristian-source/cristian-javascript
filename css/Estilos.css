@@ -1,0 +1,39 @@
+
+.encabezado {
+   background-color: #24f080; 
+   padding: 10px;
+
+}
+
+.encabezado h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+
+.encabezado h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+#imagen {
+    display: none;
+    width: 600px;
+}
+
+.parrafos {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1024px) {
+    .encabezado {
+        background-color: #db1540;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #imagen {
+        width: 400px;
+    }
+}
